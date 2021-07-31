@@ -1,0 +1,177 @@
+body{
+    margin: auto;
+}
+
+*{box-sizing: border-box;}
+
+p{color: #777777;}
+
+h1,h2{color: #383838;}
+
+p,h1,h2{ line-height: 43.4px;letter-spacing: 1.1px;}
+
+.cl{clear: both;}
+
+/*  header*/
+
+.slider{
+    background-image: url(../images/airline.jpg);
+    background-size: cover;
+    height: 600px;
+}
+
+/*  navbar */
+
+.slider .navbar,.slider .navbar a{color: #383838;}
+.slider .navbar h2{letter-spacing: 3.7px;text-transform: uppercase;}
+.slider .navbar p,.slider .hd h1{letter-spacing: 3.7px;}
+.slider .navbar a{text-decoration: none;}
+.slider .navbar ul li{
+    display: inline-block;
+    padding: 20px;
+    margin-top: 14px;
+    font-size: 23px;
+}
+/*  navbar */
+
+.hd{padding-top: 50px;}
+.slider .hd #text{color: #ffffff; width: 50%;float: left;}
+.slider .hd .form{
+    width: 30%; 
+    float: left;
+    margin-left: 213px;
+    padding-left: 36px;
+    padding-top: 40px;
+    background-color: rgba(95, 100, 102, 0.5);
+    border-radius: 10px;
+}
+
+.slider .hd .form label{color: #dad6d6;font-size: 30px;padding: 0px 0px 10px 27px;}
+
+.slider .hd .form input,select,button{
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    color: #555555;
+    border: 1px solid #E5E5E5;
+    border-radius: 10px;
+    width: 80%;
+}
+.slider button{background-color: #09C6AB;border: none;}
+
+/* header*/
+
+/*  home */
+
+#home{margin:80px 0px 50px 0px;}
+#home .image{width: 40%; float: left;}
+#home .image img{width: 100%;}
+#home .text{width: 60%; float: left; padding:110px 0px 0px 48px;}
+#home .text h2{margin-bottom: 30px;}
+#home .text p span{margin-top: 10px;display: block;}
+/*  home */
+
+/* fixed photo */
+
+.mi{
+    background-image: url(../images/013f5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 400px;
+    margin-top: 100px;
+}
+.mi h1{
+    width: 860px;
+    margin-left:65px;
+    padding:130px 0px 0px 150px;
+    color:#c7c7c0;
+}
+/* fixed photo */
+
+/*  destination */
+
+#destination{margin:150px 0px 40px 0px;}
+#destination .text-center .pp{width: 645px; margin-left: 200px; margin-top: 15px;}
+#destination .card{
+    width: 350px;
+    float: left;
+    margin:50px 16px 20px 6px;
+}
+#destination .card img{width: 100%;height: 200px;}
+#destination .card button{background-color:#1A1A1A; color: #ffffff;margin-left: 30px;}
+#destination .card:hover button{
+    background-color: #09C6AB;
+}
+/*destination */
+
+/* slide show */
+
+#travel .text{ margin-top: 100px}
+#travel .text p{width: 656px; margin-left: 333px; margin-top: 22px; margin-bottom: 50px;}
+
+#slideshow {
+    background-size: cover;
+}
+#slideshow img{width: 1400px; height: 700px;}
+/* slide show */
+
+/* about us */
+
+#aboutUs{
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+#aboutUs .ab{
+    width: 40%;
+    float: left;
+} 
+#aboutUs .abt{
+    width: 50%;
+    float: left;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+#aboutUs .abt>div{
+    width: 33.3333%;
+    float: left;
+}
+
+#aboutUs .abt .abti i{ color:#09C6AB ;}
+#aboutUs .abt .abti a{text-decoration: none;color:#09C6AB ;}
+/* about us */
+
+/* footer */
+
+.fotter{
+    color:#585E60 ;
+    padding: 20px 90px 10px ; 
+
+}
+.fotter ul{
+    margin-left: -25px;
+    cursor: pointer;
+    float: right;
+}    
+.fotter ul li{
+    float: left;
+    display: inline;
+    margin-right: 5px;
+    color:#09C6AB ;
+}
+/* footer */
+
+/* for small screen */
+@media (min-width:768px){
+    .carousel{hidden}
+}
+
+
+
+
+
+
+
